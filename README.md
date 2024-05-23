@@ -1,2 +1,2 @@
 #Hello
-<p>I have build a cloned website of netflix.com</p>
+<p>I have cloned a website netflix.com</p>
