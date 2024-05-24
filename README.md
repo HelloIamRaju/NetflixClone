@@ -17,7 +17,7 @@ Welcome to my Netflix Clone project! This project is a simple recreation of the 
 
 ## 🌐 Live Demo
 
-Check out the live demo [here]((https://helloiamraju.github.io/NetflixClone/)).
+Check out the live demo [here](https://helloiamraju.github.io/NetflixClone/).
 
 ## 📂 Project Structure
 
