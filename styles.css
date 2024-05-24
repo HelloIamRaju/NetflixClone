@@ -3,12 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+overflow-x:hidden
+}
 :root {
   --brand-color: rgb(226, 5, 5);
 }
 .container {
   display: flex;
   flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  
 }
 .first-box {
   /* background-color: black; */
@@ -96,6 +103,14 @@
   }
 }
 @media screen and (max-width: 670px) {
+  .container .links .biga a{
+font-size:1.2rem
+  }
+  
+ .container .clonedinfo{
+font-size:1rem;
+padding:10px
+  }
   .container .start{
     gap:20px;
   }
@@ -124,7 +139,7 @@
     text-align:center;
     padding: 20px 20px 0px 20px;
 justify-content:flex-start;
-height:60vh;
+height:75vh;
 gap:20px 0px;
 /* background-color:aquamarine */
   }
@@ -132,7 +147,9 @@ gap:20px 0px;
  .container .box h1{
     font-size:2rem
   }
-
+.container .layer{
+  height:80vh
+}
   .container .box .details,
 .image {
   width: 100%;
@@ -151,7 +168,13 @@ gap:20px 0px;
   height:3rem;
   font-size:20px;
 }
-
+.container .links {
+  height:50vh;
+  font-size:1rem;
+  gap:5px;
+  flex-direction:column;
+  /* justify-content:space-around */
+}
 
 }
 
@@ -310,9 +333,8 @@ p {
 }
 
 .links {
-  padding: 100px 10px;
+  padding: 50px 10px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
