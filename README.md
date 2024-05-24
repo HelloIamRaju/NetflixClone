@@ -1,6 +1,5 @@
 <h1>HELLO</h1>
 <p style="color:dodgerblue">I have cloned a website netflix.com</p>
-<button><a href="https://helloiamraju.github.io/NetflixClone/">Go to the cloned website</a> </button>
 
 # Netflix Clone
 
@@ -18,7 +17,7 @@ Welcome to my Netflix Clone project! This project is a simple recreation of the 
 
 ## 🌐 Live Demo
 
-Check out the live demo [here](https://your-github-username.github.io/netflix-clone/).
+Check out the live demo [here]((https://helloiamraju.github.io/NetflixClone/)).
 
 ## 📂 Project Structure
 
